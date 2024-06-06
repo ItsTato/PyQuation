@@ -1,8 +1,6 @@
 from .Element import Element
 
 class Elements:
-	def __init__(self) -> None:
-		return
 	Hydrogen:Element = Element("Hydrogen","H",1,1.0079)
 	Helium:Element = Element("Helium","He",2,4.00260)
 	Lithium:Element = Element("Lithium","Li",3,6.941)
@@ -50,6 +48,4 @@ class Elements:
 	
 
 class Symbols:
-	def __init__(self) -> None:
-		return
-	#H:Element = Elements.Hydrogen
+	H:Element = Elements.Hydrogen
